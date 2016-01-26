@@ -1,0 +1,302 @@
+@import url(https://korppi.jyu.fi/kotka/styles/basicStyleDisplay.css);
+
+body {
+  position: relative;
+}
+
+body:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.notPrinted {
+  display: none;
+}
+
+.leftbar {
+  box-sizing: border-box;
+  font-family: adobe-helvetica-iso8859-15,Verdana, Arial, Helvetica, sans-serif;
+  color: black;
+  background: #E7ECF2 none;
+  font-size: 90%;
+  width: 220px;
+  position: absolute;
+  min-height: 100%;
+  padding: 10px 20px;
+}
+
+#staticMiniCalendar {
+  margin: 20px 0;
+}
+
+table.miniCalendar {
+  border: 5px white solid;
+  box-sizing: border-box;
+  border-collapse: initial;
+  margin-left: -10px;
+}
+
+.logoblock {
+  margin-left: -10px;
+}
+
+.uppernavbar {
+  color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  background: white;
+  float: right;
+  position: static;
+  margin: 10px;
+}
+
+.tiedot {
+  float: left;
+  padding-right: 1em;
+  color: black;
+  text-align: left;
+  overflow: hidden;
+  font-size: 90%;
+  background: white;
+  height: auto;
+}
+
+.searchbar {
+  min-height: 0;
+  height: auto;
+}
+
+.navbar {
+  padding-top: 0;
+  height: 65px;
+  float: right;
+  width: 240px;
+}
+
+.navbar .empty {
+  display: none;
+}
+
+.Korppi .navbarImage {
+  background-position-x: center !important;
+}
+
+.Korppi .navbarImage img {
+  display: none
+}
+
+.Korppi .navbar .exit {
+  color: black;
+  background: url(https://korppi.jyu.fi/kotka/images/exitb.gif) no-repeat;
+  min-height: 40px;
+  float: right;
+}
+
+/* Warning: The vertical-align property only applies to inline and table-cell elements. */
+
+.Korppi .navbar .exit a { display: block; height: 45px; vertical-align: bottom; width: 40px; }
+
+.Korppi .navbar .settings {
+  color: black;
+  background: url(https://korppi.jyu.fi/kotka/images/settingb.gif) no-repeat;
+  min-height: 40px;
+  float: right;
+}
+
+/* Warning: The vertical-align property only applies to inline and table-cell elements. */
+.Korppi .navbar .settings a { display: block; height: 45px; vertical-align: bottom; width: 40px; }
+
+.Korppi .navbar .feedback {
+  color: black;
+  background: url(https://korppi.jyu.fi/kotka/images/palauteb.gif) no-repeat;
+  min-height: 40px;
+  float: right;
+}
+
+/* Warning: The vertical-align property only applies to inline and table-cell elements. */
+.Korppi .navbar .feedback a { display: block; height: 45px; vertical-align: bottom; width: 40px; }
+
+.Korppi .navbar .help {
+  color: black;
+  background: url(https://korppi.jyu.fi/kotka/images/infob.gif) no-repeat;
+  min-height: 40px;
+  float: right;
+}
+
+/* Warning: The vertical-align property only applies to inline and table-cell elements. */
+.Korppi .navbar .help a { display: block; height: 45px; vertical-align: bottom; width: 40px; }
+
+.Korppi .navbar .navbarImageText a { display: inline; }
+
+.Korppi .navbarImageText {
+  text-align: center;
+}
+
+
+
+.navbarcalendar table td, table.center td {
+  text-align: center;
+  margin-top: 0.6em;
+}
+
+
+.dayWhite {
+  color: black;
+  background: transparent none;
+  font-size : 0.8em;
+}
+
+.Korppi .leftbar .dayWhite, .Korppi .leftbar .dayWhite a:link, .Korppi .leftbar .dayWhite a:visited {
+  color: black;
+  background: white none;
+}
+
+
+
+.navRed {
+  color: black;
+  background: #87CEFA none;
+}
+
+
+.navMonthToday {
+  text-align: center;
+  border: solid 1px #666666;
+}
+
+.dayHighlightRow {
+  font-size : 90%;
+}
+
+
+.Korppi .logoblock {
+  height: 70px;
+  color: black;
+  background: #E7ECF2 url(https://korppi.jyu.fi/kotka/images/sinilogo.png) no-repeat left top;
+}
+
+
+.Korppi .logoimage img {
+  display: none;
+}
+
+
+
+.navmenubar {
+  color: black;
+  line-height: 170%;
+}
+
+
+.navbar a:link {
+        color: black;
+        font-weight: normal;
+        background:  transparent none;
+}
+.leftbar a:link {
+        border: 0;
+        color: black;
+        font-weight: normal;
+        background: #E7ECF2 none;
+        text-decoration: none;
+}
+.leftbar a:visited {
+        color: black;
+        background: #E7ECF2 none;
+        font-weight: normal;
+}
+.leftbar a:hover {
+        text-decoration: underline;
+}
+
+div strong.navLinkSelected a:link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.calendarNavigation {
+  color: black;
+  background: #E7ECF2 none;
+  margin-top: 1em;
+
+}
+
+.calendarNavigation a:hover {
+  color: black;
+  background: #0000ff none;
+}
+
+
+.calendarNavigation table a {
+  color: black;
+  background: #ffffff;
+  margin-top: 1em;
+
+}
+
+
+
+
+.regfont {
+  color: black;
+  background: transparent none;
+}
+
+.regfontbig {
+  text-align: left;
+}
+
+
+.regfontbig a:link {
+  background: #ffffff none;
+  color: black;
+  text-decoration: none;
+}
+
+.regfontbig a:hover {
+  text-decoration: underline;
+}
+
+
+.regfont a:link {
+  background: #ffffff none;
+  color: black;
+  text-decoration: none;
+}
+
+.regfont a:hover {
+  text-decoration: underline;
+}
+
+.navRed a:link   {
+  background: #87CEFA none;
+  color: black;
+  text-decoration: none;
+}
+
+.navRed a:hover {
+  text-decoration: underline;
+}
+
+
+.regfont strong {
+  color: black;
+  background: #ffffff none;
+}
+
+a.regfont:hover strong {
+  text-decoration: underline;
+}
+
+.main {
+  width: calc(100vw - 260px);
+  position: static;
+  float: right;
+  padding-left: 10px;
+  top: 75px;
+}
