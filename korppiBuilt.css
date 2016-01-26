@@ -13,6 +13,10 @@ body:after {
   height: 0;
 }
 
+body > .notPrinted:not(.uppernavbar) {
+  display: none;
+}
+
 .leftbar {
   box-sizing: border-box;
   font-family: adobe-helvetica-iso8859-15,Verdana, Arial, Helvetica, sans-serif;
