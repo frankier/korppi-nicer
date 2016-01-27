@@ -46,6 +46,7 @@ body > .notPrinted:first-child {
 
 table.miniCalendar {
   border: 5px white solid;
+  background: white;
   box-sizing: border-box;
   border-collapse: initial;
   margin-left: -10px;
