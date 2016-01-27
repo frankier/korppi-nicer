@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Lora')
-@import url(/kotka/styles/basicStyleDisplay.css);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Lora');
+@import url('/kotka/styles/basicStyleDisplay.css');
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lora', serif;
@@ -13,7 +13,6 @@ a:link {
 body {
   font-family: 'Open Sans', sans-serif;
   position: relative;
-  margin: 0;
 }
 
 body:after {
@@ -46,7 +45,6 @@ body > .notPrinted:first-child {
 
 table.miniCalendar {
   border: 5px white solid;
-  background: white;
   box-sizing: border-box;
   border-collapse: initial;
   margin-left: -10px;
