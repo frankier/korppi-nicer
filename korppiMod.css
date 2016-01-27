@@ -31,7 +31,7 @@ body > .notPrinted:first-of-type(1) {
 .leftbar {
   box-sizing: border-box;
   color: black;
-  background: #E7ECF2 none;
+  background: #e73cf2;
   font-size: 90%;
   width: 220px;
   position: absolute;
@@ -209,7 +209,7 @@ table.miniCalendar {
 .Korppi .logoblock {
   height: 70px;
   color: black;
-  background: #E7ECF2 url(/kotka/images/sinilogo.png) no-repeat left top;
+  background: #e7ecf2 url(/kotka/images/sinilogo.png) no-repeat left top;
 }
 
 
@@ -333,11 +333,7 @@ a.regfont:hover strong {
 
 .breadcrumb, .tabs {
   display: inline-block;
-  margin-left: -30px;
-  padding-left: 30px;
-  background-color: #E7ECF2;
-  height: 30px;
-  line-height: 30px;
+  line-height: 40px;
   color: transparent;
 }
 
@@ -349,10 +345,20 @@ a.regfont:hover strong {
 .breadcrumb > span {
   display: inline-block;
   color: black;
+  line-height: 30px;
+}
+
+.breadcrumb > span:nth-child(odd) {
+  background-color: #f2f5f8;
 }
 
 .breadcrumb > span:nth-child(even) {
-  background-color: #f2f5f8;
+  background-color: #e7ecf2;
+}
+
+.breadcrumb > span:first-child, .breadcrumb > br + span {
+  margin-left: -30px;
+  padding-left: 30px;
 }
 
 .breadcrumb:after {
