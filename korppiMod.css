@@ -54,6 +54,27 @@ table.miniCalendar {
   margin-left: -10px;
 }
 
+.logoimage {
+  display: block;
+  height: 100%;
+  background: transparent;
+  position: absolute;
+}
+
+.logotext {
+  font-family: 'Lora', serif;
+  display: block;
+  background: #E7ECF2;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 36px;
+  height: 94px;
+  line-height: 94px;
+  text-align: center;
+  padding-bottom: 38px;
+  padding-top: 12px;
+}
+
 .uppernavbar {
   color: black;
   display: flex;
