@@ -31,7 +31,7 @@ body > .notPrinted:first-of-type(1) {
 .leftbar {
   box-sizing: border-box;
   color: black;
-  background: #e73cf2;
+  background: #e7ecf2;
   font-size: 90%;
   width: 220px;
   position: absolute;
