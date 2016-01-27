@@ -2,7 +2,7 @@
 @import url(https://korppi.jyu.fi/kotka/styles/basicStyleDisplay.css);
 
 body {
-  font-family: 'Open sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,7 +33,6 @@ body > .notPrinted:first-child {
 
 .leftbar {
   box-sizing: border-box;
-  font-family: adobe-helvetica-iso8859-15,Verdana, Arial, Helvetica, sans-serif;
   color: black;
   background: #E7ECF2 none;
   font-size: 90%;
