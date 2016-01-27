@@ -24,7 +24,7 @@ body:after {
   height: 0;
 }
 
-body > .notPrinted:first-child {
+body > .notPrinted:first-of-type(1) {
   display: none;
 }
 
@@ -331,7 +331,7 @@ a.regfont:hover strong {
   top: 75px;
 }
 
-.breadcrumb {
+.breadcrumb, .tabs {
   display: inline-block;
   margin-left: -30px;
   padding-left: 30px;
@@ -339,6 +339,11 @@ a.regfont:hover strong {
   height: 30px;
   line-height: 30px;
   color: transparent;
+}
+
+.tabs > * {
+  background: transparent;
+  border: 0;
 }
 
 .breadcrumb > span {
