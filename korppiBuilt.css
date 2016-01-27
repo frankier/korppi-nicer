@@ -1,5 +1,10 @@
 @import url(https://korppi.jyu.fi/kotka/styles/basicStyleDisplay.css);
 
+a:link {
+  color: #364a63;
+  text-decoration: none;
+}
+
 body {
   position: relative;
 }
@@ -13,7 +18,7 @@ body:after {
   height: 0;
 }
 
-body > .notPrinted:not(.uppernavbar) {
+body > .notPrinted:first-child {
   display: none;
 }
 
@@ -67,6 +72,7 @@ table.miniCalendar {
 }
 
 .searchbar {
+  order: 1;
   min-height: 0;
   height: auto;
 }
@@ -75,7 +81,7 @@ table.miniCalendar {
   padding-top: 0;
   height: 65px;
   float: right;
-  width: 240px;
+  min-width: 0;
 }
 
 .navbar .empty {
@@ -299,4 +305,34 @@ a.regfont:hover strong {
   float: right;
   padding-left: 10px;
   top: 75px;
+}
+
+.breadcrumb {
+  display: inline-block;
+  margin-left: -30px;
+  padding-left: 30px;
+  background-color: #E7ECF2;
+  height: 30px;
+  line-height: 30px;
+}
+
+.breadcrumb > span {
+  display: inline-block;
+}
+
+.breadcrum > span:nth-child(even) {
+  background-color: #f2f5f8;
+}
+
+.breadcrumb:after {
+  content: "";
+  display: inline-block;
+  border-left: 15px solid #E7ECF2;
+  border-top: 15px white solid;
+  border-bottom: 15px white solid;
+  width: 0px;
+  height: 0px;
+  line-height: 15px;
+  vertical-align: middle;
+  margin-left: 15px;
 }
