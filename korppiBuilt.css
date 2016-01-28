@@ -346,6 +346,8 @@ a.regfont:hover strong {
   display: inline-block;
   color: black;
   line-height: 30px;
+  margin-left: -30px;
+  padding-left: 30px;
 }
 
 .breadcrumb > span:after {
@@ -373,7 +375,7 @@ a.regfont:hover strong {
   background-color: #e7ecf2;
 }
 
-.breadcrumb > span:nth-child(odd):after {
+.breadcrumb > span:nth-child(even):after {
   border-left: 15px #f2f5f8 solid;
   border-top: 15px #e7ecf2 solid;
   border-bottom: 15px #e7ecf2 solid;
