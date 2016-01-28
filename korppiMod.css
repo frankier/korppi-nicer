@@ -348,17 +348,6 @@ a.regfont:hover strong {
   line-height: 30px;
 }
 
-.breadcrumb > span:after {
-  content: "";
-  display: inline-block;
-  width: 0;
-  height: 0;
-  line-height: 15px;
-  vertical-align: top;
-  margin-left: 15px;
-  position: relative;
-}
-
 .breadcrumb > span:nth-child(odd) {
   background-color: #f2f5f8;
 }
