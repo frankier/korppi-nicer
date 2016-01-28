@@ -24,7 +24,7 @@ body:after {
   height: 0;
 }
 
-body > .notPrinted:first-of-type(1) {
+body > .notPrinted:first-of-type {
   display: none;
 }
 
