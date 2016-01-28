@@ -348,6 +348,17 @@ a.regfont:hover strong {
   line-height: 30px;
 }
 
+.breadcrumb > span:after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  line-height: 15px;
+  vertical-align: top;
+  margin-left: 15px;
+  position: relative;
+}
+
 .breadcrumb > span:nth-child(odd) {
   background-color: #f2f5f8;
 }
@@ -371,17 +382,4 @@ a.regfont:hover strong {
 .breadcrumb > span:first-child, .breadcrumb > br + span {
   margin-left: -30px;
   padding-left: 30px;
-}
-
-.breadcrumb:after {
-  content: "";
-  display: inline-block;
-  border-left: 15px solid #E7ECF2;
-  border-top: 15px white solid;
-  border-bottom: 15px white solid;
-  width: 0px;
-  height: 0px;
-  line-height: 15px;
-  vertical-align: top;
-  margin-left: 15px;
 }
