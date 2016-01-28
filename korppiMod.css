@@ -351,22 +351,32 @@ a.regfont:hover strong {
 .breadcrumb > span:after {
   content: "";
   display: inline-block;
-  border-left: 15px solid #E7ECF2;
-  border-top: 15px white solid;
-  border-bottom: 15px white solid;
-  width: 0px;
-  height: 0px;
+  width: 0;
+  height: 0;
   line-height: 15px;
   vertical-align: top;
   margin-left: 15px;
+  position: relative;
 }
 
 .breadcrumb > span:nth-child(odd) {
   background-color: #f2f5f8;
 }
 
+.breadcrumb > span:nth-child(odd):after {
+  border-left: 15px solid #f2f5f8;
+  border-top: 15px #e7ecf2 solid;
+  border-bottom: 15px #e7ecf2 solid;
+}
+
 .breadcrumb > span:nth-child(even) {
   background-color: #e7ecf2;
+}
+
+.breadcrumb > span:nth-child(odd):after {
+  border-left: 15px solid #e7ecf2;
+  border-top: 15px #f2f5f8 solid;
+  border-bottom: 15px #f2f5f8 solid;
 }
 
 .breadcrumb > span:first-child, .breadcrumb > br + span {
