@@ -353,9 +353,9 @@ a.regfont:hover strong {
 }
 
 .breadcrumb > span:nth-child(odd):after {
-  border-left: 15px solid #f2f5f8;
-  border-top: 15px #e7ecf2 solid;
-  border-bottom: 15px #e7ecf2 solid;
+  border-left: 15px #e7ecf2 solid;
+  border-top: 15px #f2f5f8 solid;
+  border-bottom: 15px #f2f5f8 solid;
 }
 
 .breadcrumb > span:nth-child(even) {
@@ -363,9 +363,9 @@ a.regfont:hover strong {
 }
 
 .breadcrumb > span:nth-child(odd):after {
-  border-left: 15px solid #e7ecf2;
-  border-top: 15px #f2f5f8 solid;
-  border-bottom: 15px #f2f5f8 solid;
+  border-left: 15px #f2f5f8 solid;
+  border-top: 15px #e7ecf2 solid;
+  border-bottom: 15px #e7ecf2 solid;
 }
 
 .breadcrumb > span:first-child, .breadcrumb > br + span {
